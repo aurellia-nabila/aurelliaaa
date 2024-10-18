@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+    background-color: #EC008D;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu a:hover {
+    color: #fff;
+}
+
+.menu a::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    background-color: #6EACDA;
+    transition: all .5s;
+}
+
+.menu a:hover::before {
+    width: 100%;
+}
+
+.menu li {
+    margin: 25px;
+    font-weight: bold;
+}
+
+.menu li a {
+    color: #f0f0f0;
+}
+
+/** MENU **/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 200px 0px 200px;
+    gap: 30px;
+}
+
+.content {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.content p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+.readmore {
+    margin-top: 20px;
+    display: block;
+    padding: 10px 20px;
+    background-color: #EC008D;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+.readmore:hover {
+    background-color: #1E3163;
+}
+
+@media screen and (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .image,
+    .content {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        font-size: 38px;
+        margin-bottom: 50px;
+    }
+}
+
+.price p {
+    font-weight: bold;
+    font-family: "Lustria", serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f0f0f0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.content {
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: .4s;
+    background: #F0A8D0;
+}
+
+.content:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+        0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+p {
+    text-align: center;
+    color: black;
+    padding-top: 0 8px;
+}
+
+h6 {
+    font-size: 26px;
+    text-align: center;
+    color: #1E3163;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+
+li {
+    padding-top: 5px;
+}
+
+.fa {
+    font-size: 26px;
+    transition: .4s;
+    margin: 3px;
+}
+
+.checked {
+    color: yellow;
+    font-size: 15px;
+}
+
+.fa:hover {
+    transform: scale(1.3);
+    transition: .6s;
+}
+
+button {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.buy-1 {
+    background: #6EACDA;
+}
+
+div h1 {
+    margin-top: 50px;
+    padding-top: 10px;
+    font-size: 20;
+}
+
+
+
+/** FOOTER **/
+footer {
+    background-color: #1E3163;
+    margin: 0;
+    padding: 0;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.sosialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.sosialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.sosialIcons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.sosialIcons a :hover {
+    background-color: #6EACDA;
+    transition: 0.5s;
+}
+
+.sosialIcons a :hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav {
+    margin: 30px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a :hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: white;
+    font-size: 15px ;
+}
+
+/**TOOLTIP FOOTER**/
+
+.twitter {
+    background-color: #f0f0f0;
+}
+
+.instagram {
+    background-color: #f0f0f0;
+}
+
+.tiktok {
+    background-color: #f0f0f0;
+}
+
+.social-container {
+    display: flex;
+    gap: 20px;
+}
+
+.social-btn {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 25px;
+}
+
+.social-btn:hover {
+    transform: translateY(-10px);
+}
+
+.social-btn img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-btn .tooltip {
+    position: absolute;
+    bottom: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #00aced;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.social-btn:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+div .tooltip {
+    font-weight: bold;
+}
+
+.social-btn {
+    display: flex;
+    text-align: center;
+}
+
+div p {
+    font-weight: bold;
+}
