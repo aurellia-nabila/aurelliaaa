@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+    background-color: #EC008D;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu a:hover {
+    color: #fff;
+}
+
+.menu a::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    background-color: #6EACDA;
+    transition: all .5s;
+}
+
+.menu a:hover::before {
+    width: 100%;
+}
+
+.menu li {
+    margin: 25px;
+    font-weight: bold;
+}
+
+.menu li a {
+    color: #f0f0f0;
+}
+/** BEST SELLER**/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    overflow: hidden;
+    width: 300px;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 16px;
+}
+
+.card .description {
+    font-size: 16px;
+    margin: 0 16px 16px;
+    display: none;
+}
+
+.card .read-more {
+    background-color: #6EACDA;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.toggle {
+    display: none;
+}
+
+.toggle:checked+.description {
+    display: block;
+}
+
+div .card {
+    font-weight: bold;
+    background-color: #F0A8D0;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    margin: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+div.badge {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff5733;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
